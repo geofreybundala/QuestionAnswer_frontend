@@ -1,0 +1,12 @@
+
+
+.qn_home {
+background-image:url('../images/aa.jpg');
+background-repeat:no-repeat;
+min-height: 88vh;
+}
+
+.qn_banner_text{
+  color:white;
+  font-size: 3.5rem
+}
