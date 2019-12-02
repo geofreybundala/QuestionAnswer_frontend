@@ -6,7 +6,28 @@ background-repeat:no-repeat;
 min-height: 88vh;
 }
 
+.qn_banner_container{
+      padding-top: 7rem !important;
+      padding-left: 3rem !important;
+}
 .qn_banner_text{
   color:white;
-  font-size: 3.5rem
+  font-size: 3.5rem;
+}
+.qn_banner_text_small{
+  color:#00ffe7;
+  font-size: 2rem;
+  padding-left: 5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.qn_banner_btn{
+  /* color:#00ffe7;
+  font-size: 2rem; */
+  padding-left: 5rem;
+ 
+}
+.qn_banner_icon{
+  margin-top: -1.5rem;
+  margin-left: 7rem;
 }
