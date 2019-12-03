@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../assets/css/Style.css';
 import Header  from '../components/header';
+import {Link}   from 'react-router-dom';
 export default class login extends Component {
     render() {
         return (
@@ -20,10 +21,14 @@ export default class login extends Component {
 					<label for="pass" class="label">Password</label>
 					<input id="pass" type="password" class="input" data-type="password"/>
 				</div>
+			
 				<div class="group">
 					<input type="submit" class="button" value="Sign In"/>
 				</div>
-				<div class="hr"></div>
+				<div className="group">
+				    <Link className="new_user" to="/register">You don't have an account?</Link>
+				</div>
+				{/* <div class="hr"></div> */}
 			</div>
 			<div class="for-pwd-htm">
 				<div class="group">
@@ -33,6 +38,8 @@ export default class login extends Component {
 				<div class="group">
 					<input type="submit" class="button" value="Reset Password"/>
 				</div>
+
+				
 				<div class="hr"></div>
 			</div>
 		</div>

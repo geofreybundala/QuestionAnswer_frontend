@@ -1,25 +1,14 @@
 
 
-.qn_home {
-background-image:url('../images/aa.jpg');
-background-repeat:no-repeat;
-min-height: 88vh;
-}
+
+
+
 
 .qn_banner_container{
       padding-top: 7rem !important;
       padding-left: 3rem !important;
 }
-.qn_banner_text{
-  color:white;
-  font-size: 3.5rem;
-}
-.qn_banner_text_small{
-  color:#00ffe7;
-  font-size: 2rem;
-  padding-left: 5rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 
 .qn_banner_btn{
   /* color:#00ffe7;
@@ -30,4 +19,157 @@ min-height: 88vh;
 .qn_banner_icon{
   margin-top: -1.5rem;
   margin-left: 7rem;
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE */
+.qn_banner_text{
+  color:white;
+  font-size: 2.5rem;
+}
+
+.qn_home {
+    background-image:url('../images/aa.jpg');
+    min-height: 94vh;
+    background-position: center;
+    background-repeat: no-repeat; 
+  }
+
+  .qn_banner_text_small{
+    color:#00ffe7;
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* STYLES GO HERE */
+
+
+.qn_home {
+    background-image:url('../images/aa.jpg');
+    min-height: 92.1vh;
+    background-position: center;
+    background-repeat: no-repeat; 
+  }
+
+  .qn_banner_text{
+    color:white;
+    font-size: 2.5rem;
+  }
+
+  .qn_banner_text_small{
+    color:#00ffe7;
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+  .qn_home {
+    background-image:url('../images/aa.jpg');
+    min-height: 92.1vh;
+    background-position: center;
+    background-repeat: no-repeat; 
+  }
+
+  .qn_banner_text{
+    color:white;
+    font-size: 2.5rem;
+  }
+
+  .qn_banner_text_small{
+    color:#00ffe7;
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* STYLES GO HERE */
+.qn_home {
+  background-image:url('../images/aa.jpg');
+  min-height: 92.1vh;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+.qn_banner_text{
+  color:white;
+  font-size: 3.5rem;
+}
+
+.qn_banner_text_small{
+  color:#00ffe7;
+  font-size: 2rem;
+  padding-left: 5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+}
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* STYLES GO HERE */
+}
+ 
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* STYLES GO HERE */
+}
+ 
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+/* STYLES GO HERE */
+}
+ 
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+ 
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
 }

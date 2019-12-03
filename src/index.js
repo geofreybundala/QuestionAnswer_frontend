@@ -9,6 +9,7 @@ import Popper from "popper.js";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { Route,  BrowserRouter as Router,Switch } from 'react-router-dom';
 import Login from './components/login';
+import Register from './components/register';
 import Notfound from './components/Notfound';
 
 const routing = (
@@ -16,6 +17,7 @@ const routing = (
       <Switch>
         <Route exact path="/" component={App} />
         <Route exact path="/login" component={Login} />
+        <Route exact path="/register" component={Register} />
         <Route path component={Notfound}/>
       </Switch>
     </Router>
